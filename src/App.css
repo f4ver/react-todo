@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.asd {
+  font-size: 100px;
+  font-weight: 450;
+  color: red;
+  opacity: 0.1;
+}
+.allBtn {
+  width: 30px;
+  height: 30px;
+  background-image: url("/src/free-icon-down-arrow-748063.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border: none;
+  margin-top: 7px;
+}
+.deleteBtn {
+  background-color: #fff;
+  border: none;
+  color: red;
+  font-size: 35px;
+}
+.list-group {
+  margin-top: 20px;
+}
+#footerLeft {
+  border: none;
+  background: white;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+#footerAll {
+  border: none;
+  background: white;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+#footerActive {
+  border: none;
+  background: white;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+#footerCompleted {
+  border: none;
+  background: white;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+#footerClear {
+  border: none;
+  background: white;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+#footerAll:hover {
+  border: 1px solid  #EAD7D7;
+  border-radius: 5px;
+}
+#footerActive:hover {
+  border: 1px solid  #EAD7D7;
+  border-radius: 5px;
+}
+#footerCompleted:hover {
+  border: 0.2px solid  #EAD7D7;
+  border-radius: 5px;
+}
+#footerClear:hover {
+  text-decoration: underline;
+}
+input::placeholder {
+  color: yellow;
+  font-style: italic;
+}
